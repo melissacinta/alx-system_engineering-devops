@@ -48,6 +48,9 @@ the command ```chmod 753 ./hello ``` sets the mode of the file hello to this:
 
 ## Task Eleven: Look in the Mirror
 
-```chmod --reference=olleh hello``` this command mirrors permisions of the reference file
+```chmod --reference=olleh hello ``` this command mirrors permisions of the reference file
 
+## Task Twelve: More Directories
+ 
+```find . -type d -exec chmod ugo+rx {} + ``` set the execute permissions for subdirectories of current directory no files are touched
 
