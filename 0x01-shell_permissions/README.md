@@ -60,4 +60,8 @@ the command ```chmod 753 ./hello ``` sets the mode of the file hello to this:
 the command ```mkdir -m 751 my_dir ``` creates a dir called ```my_dir``` with the 751 permission set to it
 
 
+## Task Fourteen:change group
+
+the command ```chgrp school hello``` changes the group owner of the file hello to school
+
 
