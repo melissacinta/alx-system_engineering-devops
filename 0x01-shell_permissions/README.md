@@ -30,6 +30,6 @@ This command ```touch hello ``` creates an empty file called hello
 
 ## Task Eight: Everybody!
 
-```chmod 755 ./hello``` A command to add execute permission to the owner and the group owner, and read permission to other users, to the file hello
+```chmod 751 ./hello``` A command to add execute permission to the owner and the group owner, and read permission to other users, to the file hello
 
 
