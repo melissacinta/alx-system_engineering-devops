@@ -50,7 +50,14 @@ the command ```chmod 753 ./hello ``` sets the mode of the file hello to this:
 
 ```chmod --reference=olleh hello ``` this command mirrors permisions of the reference file
 
-## Task Twelve: More Directories
+## Task Twelve: Directories
  
 ```find . -type d -exec chmod ugo+rx {} + ``` set the execute permissions for subdirectories of current directory no files are touched
+
+
+## Task Thirteen: More Directories
+
+the command ```mkdir -m 751 my_dir ``` creates a dir called ```my_dir``` with the 751 permission set to it
+
+
 
