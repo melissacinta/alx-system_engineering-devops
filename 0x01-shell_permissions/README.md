@@ -64,4 +64,9 @@ the command ```mkdir -m 751 my_dir ``` creates a dir called ```my_dir``` with th
 
 the command ```chgrp school hello``` changes the group owner of the file hello to school
 
+## Task Fifteen: change group and owner
+
+```chown -R vincent:staff . ``` changes the group and user ownership of file and diresctories
+
+
 
