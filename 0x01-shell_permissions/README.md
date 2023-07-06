@@ -72,3 +72,10 @@ the command ```chgrp school hello``` changes the group owner of the file hello t
 ## Task Sixteen: symbolic links
 
 ```chown -h vincent:staff _hello``` is used to change the user and  group ownership of the symbolic ```link _hello```
+
+
+## Task Seventeen: If Only
+
+```chown -h --from=guillaume betty hello ``` is used to change ownership of hello to betty if only the prev owner is guillaume
+
+
