@@ -46,4 +46,8 @@ the command ```chmod 753 ./hello ``` sets the mode of the file hello to this:
 
 ```-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello```
 
+## Task Eleven: Look in the Mirror
+
+```chmod --reference=0lleh hello``` this command mirrors permisions of the reference file
+
 
