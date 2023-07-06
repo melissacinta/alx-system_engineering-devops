@@ -76,6 +76,11 @@ the command ```chgrp school hello``` changes the group owner of the file hello t
 
 ## Task Seventeen: If Only
 
-```chown -h --from=guillaume betty hello ``` is used to change ownership of hello to betty if only the prev owner is guillaume
+```chown -h -R --from=guillaume betty ./hello ``` is used to change ownership of hello to betty if only the prev owner is guillaume
+
+
+## Task Eighteen: Star Wars
+
+```telnet towel.blinkenlights.nl ``` plays star ways on the terminal but you have to make sure you have star wars installed
 
 
