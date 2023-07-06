@@ -12,6 +12,16 @@ The script for this task is ```whoami ``` , it prints out the current user
 
 The script for this task is ```groups ```, this command prints out the group of the current user if no other arguement is passed, else it would print the groups for the specified user or process
 
-##Task Four: New owner
+## Task Four: New owner
 
-This script ```chown betty /hello ``` changes the owner of the file hello to the user betty.
+This script ```chown betty ./hello ``` changes the owner of the file hello to the user betty.
+
+## Task Five: Empty
+
+This script ```touch hello ``` creates an empty file called hello
+
+## Task Six: Execute
+
+Script to add execute permission to the owner of the file hello
+
+
